@@ -28,7 +28,7 @@ jobs:
         with:
           role-to-assume: ${{ secrets.AWS_ROLE }}
           aws-region: ${{ secrets.AWS_REGION }}
-          role-session-name: GitHub-OIDC-TERRAFORM
+          role-session-name: gitub-oidc-task-repo
           audience: sts.amazonaws.com
 
       - name: Setup Terraform
